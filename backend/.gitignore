@@ -1,0 +1,53 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+*.env
+
+# Logs
+logs/
+*.log
+
+# Test/coverage caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.tox/
+.nox/
+
+# Build/distribution artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+.tmp/
+.temp/
+tmp/
+temp/
+
+# SQLite/databases (if any)
+*.sqlite3
+*.db
+
+# App-specific generated data (adjust if needed)
+app/__pycache__/
+app/data/
